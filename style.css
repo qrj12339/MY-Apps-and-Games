@@ -1,0 +1,41 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 50px;
+}
+#apps{
+    background-color: beige;
+    margin: 20px;
+    border: 2px solid black;
+    }
+    #games{
+        background-color: beige;
+        margin: 20px;
+        border: 2px solid black;
+        }
+        #chatbot{
+            background-color: beige;
+            margin: 20px;
+            border: 2px solid black;
+            padding-bottom: 10px;
+            }
+.line{
+    height: 7px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}    
+img{
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+img:hover{
+    transform: scale(1.1,1.1);
+}
+span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
